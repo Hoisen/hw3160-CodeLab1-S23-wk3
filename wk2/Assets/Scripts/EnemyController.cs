@@ -31,7 +31,7 @@ public class EnemyController : MonoBehaviour
             transform.position = new Vector2(
                 Random.Range(-9f, 9f),
                 Random.Range(-4f, 4f));
-            GameManager.Instance.score--;
+            GameManager.Instance.Score--;
         }
     }
 }
