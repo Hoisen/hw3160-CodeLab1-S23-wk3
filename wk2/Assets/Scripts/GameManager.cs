@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     
     private int score = 0;
-
+    
     //public int score = 0;
     
     //Text
@@ -85,6 +85,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (score == targetScore) //if we hit the target score
         {
             currentLevel++; //increase the level
