@@ -33,9 +33,7 @@ public class TestMusic : MonoBehaviour
 
         if (timer >= gameLength && inLevel0)
         {
-            //inLevel0= false;
             UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
-            //UpdateHighScores();
         }
     }
 
